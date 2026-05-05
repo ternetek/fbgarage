@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Menú — Garage & Grill. Estilo roadhouse, parrilla y birra fría."
+    />
+    <title>Garage &amp; Grill — Menú</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Barlow+Condensed:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <p class="tagline">Route 66 vibes · Parrilla abierta hasta tarde</p>
+        <h1 class="logo">
+          <span class="logo-small">Club house</span>
+          <span class="logo-main">Garage &amp; Grill</span>
+        </h1>
+        <p class="lead">
+          Mock del menú final — burgers con actitud, costillas que piden segunda
+          ronda y birra bien helada en el mismo garaje donde arreglamos las
+          motos entre semana.
+        </p>
+        <nav class="anchor-nav" aria-label="Saltar a categorías">
+          <!-- Se rellena con JS desde menu-data -->
+        </nav>
+      </div>
+    </header>
+
+    <main id="menu" class="menu-board">
+      <!-- Bloques por categoría inyectados con JS -->
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p><strong>Dirección mock:</strong> Av. Libre 884 · Abierto vie–dom · 17:00–02:00</p>
+        <p class="footer-note">
+          Esta es una vista prevía con datos de ejemplo para deploy en GitHub
+          Pages. Reemplazá categorías y platos cuando tengas el menú definitivo.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/menu-data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
