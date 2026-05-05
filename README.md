@@ -21,7 +21,7 @@ Abrí `js/menu-data.js` y modificá el objeto `MENU_DATA.categories`: cada categ
 2. En el repo: **Settings → Pages**.
 3. **Source**: *Deploy from a branch*.
 4. **Branch**: `main` (o `master`) y carpeta **`/ (root)`** si `index.html` está en la raíz.
-5. Guardá; en unos minutos la URL será `https://<usuario>.github.io/<repo>/`.
+5. Guardá; en unos minutos la URL será `https://ternetek.github.io/fb_garage/`.
 
 Si el sitio vive en un subpath (por ejemplo solo `https://usuario.github.io/repo/`), los enlaces actuales usan rutas relativas (`css/`, `js/`) y deberían funcionar sin cambios.
 
