@@ -22,36 +22,43 @@
       "items": [
         {
           "name": "Bowl de fruta",
+          "image": "menu/dishes/bowlfruta.jpeg",
           "price": "$99.00",
           "description": "Melón, fresa, manzana verde y frutos rojos, acompañado de yoguth natural y granola"
         },
         {
           "name": "Breakfast burrito",
+          "image": "menu/dishes/breakfast_burrito.jpeg",
           "price": "$109.00",
           "description": "Burrito con 3 huevos, jamon, tocino y mozzarella"
         },
         {
           "name": "Huevos estrellados",
+          "image": "menu/dishes/huevos_estrellados.jpeg",
           "price": "$119.00",
           "description": "Rancheros, divorciados y estrellados, acompañados con frijoles y pan"
         },
         {
           "name": "Huevos revueltos",
+          "image": "menu/dishes/huevos_revueltos.jpeg",
           "price": "$119.00",
           "description": "A elegir jamon, tocino, espinacas o champiñones, acompañados con frijoles y pan"
         },
         {
           "name": "Omelette",
+          "image": "menu/dishes/omelette.jpeg",
           "price": "$129.00",
           "description": "A elegir jamon, tocino, espinacas o champiñones, acompañados con frijoles y pan"
         },
         {
           "name": "Chilaquiles — Rojos o verdes",
+          "image": "menu/dishes/chilaquiles.jpeg",
           "price": "$119.00",
           "description": "Acompañados de frijoles y pan"
         },
         {
           "name": "El americano",
+          "image": "menu/dishes/americano.jpeg",
           "price": "$139.00",
           "description": "Hot cakes coronados con huevo estrellado y tocino"
         },
@@ -83,41 +90,49 @@
       "items": [
         {
           "name": "Alitas",
+          "image": "menu/dishes/alitas.jpeg",
           "price": "$159.00",
           "description": "10 pz alita chilena (600 gr aprox) bañada con tu salsa favorita: búfalo, bbq, limon - pimienta o pelon pelorico, acompañadas de vegetales y aderezo ranch"
         },
         {
           "name": "Boneless",
+          "image": "menu/dishes/boneless.jpeg",
           "price": "$129.00",
           "description": "Hechos en casa con 200 gr de pechuga de pollo bañados con tu salsa favorita: búfalo, bbq o pelon pelorico, acompañadas de vegetales y aderezo ranch"
         },
         {
           "name": "Papas oink",
+          "image": "menu/dishes/papas_oink.jpeg",
           "price": "$149.00",
           "description": "350 gr de papas a la francesa, gratinadas con mezcla de quesos, tocino, alioli y un toque de sriracha"
         },
         {
           "name": "Chicken tenders",
+          "image": "menu/dishes/chicken_tenders.jpeg",
           "price": "$119.00",
           "description": "200 gr de jugosa pechuga de pollo empanizadas, acompañados de tu salsa favorita: búfalo, bbq o ranch"
         },
         {
           "name": "Cecina",
+          "image": "menu/dishes/cecina.jpeg",
           "price": "$239.00",
           "description": "100 gr de clasica carne seca bañadas con salsas negras"
         },
         {
           "name": "Chicharron de rib eye",
+          "image": "menu/dishes/chicharron_ribeye.jpeg",
           "price": "$229.00",
           "description": "Chicharron de rib eye, servido sobre una cama de guacamole, acompañado con totopos"
         },
         {
           "name": "Platón",
+          "image": "menu/dishes/platon.jpeg",
           "price": "$389.00",
           "description": "Boneless, guacamole, patatas bravas, papas a la francesa, vegetales y aderezo ranch"
         },
         {
           "name": "Botana camaron seco",
+          "image": "menu/dishes/botana_camaron.jpeg",
           "price": "$149.00",
           "description": "Aguachile de camaron seco coronado con aguacate, acompañado con tostadas"
         }
@@ -129,26 +144,31 @@
       "items": [
         {
           "name": "Guacamole con chicharron",
+          "image": "menu/dishes/guacamole.jpeg",
           "price": "$99.00",
           "description": "Guacamole con chicharron botanero"
         },
         {
           "name": "Patatas bravas",
+          "image": "menu/dishes/patatas_bravas.jpeg",
           "price": "$99.00",
           "description": "250 gr de papita cambray morada, tocino, salsa picosita, alioli y perejil"
         },
         {
           "name": "Tostitos",
+          "image": "menu/dishes/tostitos.jpeg",
           "price": "$99.00",
           "description": "Los tradicionales"
         },
         {
           "name": "Coliflor Búfalo",
+          "image": "menu/dishes/coliflor_buffalo.jpeg",
           "price": "$99.00",
           "description": "250 gr coliflor bañados con salsa búfalo, acompañados de vegetales y aderezo ranch"
         },
         {
           "name": "Papas a la francesa",
+          "image": "menu/dishes/papas_francesa.jpeg",
           "price": "$99.00",
           "description": "350 grs"
         },
@@ -170,6 +190,7 @@
       "items": [
         {
           "name": "Hamburguesa res",
+          "image": "menu/dishes/hamburguesa_res.jpeg",
           "price": "$179.00",
           "description": "150 gr de jugosa carne de res, mezcla de quesos, tocino, aros de cebolla, bbq y vegetetales. Acompañada con papas a la francesa"
         },
@@ -190,6 +211,7 @@
         },
         {
           "name": "Pizza carnes frias",
+          "image": "menu/dishes/pizza_carnes.jpeg",
           "price": "$149.00",
           "description": "Pepperoni, tocino, jamón y salchicha"
         },

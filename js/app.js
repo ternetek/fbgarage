@@ -80,13 +80,33 @@
 
     const items = (section.items || [])
       .map((item) => {
+        let imgSrc = "";
+        let imgAlt = item.name || "";
+        if (item.image) {
+          if (typeof item.image === "string") {
+            imgSrc = item.image;
+          } else if (item.image.src) {
+            imgSrc = item.image.src;
+            imgAlt = item.image.alt != null ? item.image.alt : imgAlt;
+          }
+        }
+        const imgHtml =
+          imgSrc && String(imgSrc).trim()
+            ? `<div class="dish-media"><img class="dish-img" src="${escapeHtml(
+                imgSrc.trim()
+              )}" alt="${escapeHtml(String(imgAlt))}" loading="lazy" decoding="async" /></div>`
+            : "";
+
         const desc = item.description ? formatDescription(item.description) : "";
         const descHtml = desc
           ? `<p class="dish-desc">${desc}</p>`
           : "";
 
+        const cardMods = imgHtml ? " dish-card--with-photo" : "";
+
         return `
-          <article class="dish-card">
+          <article class="dish-card${cardMods}">
+            ${imgHtml}
             <div class="dish-top">
               <h3 class="dish-name">${escapeHtml(item.name)}</h3>
               <p class="dish-price" aria-label="Precio">${escapeHtml(item.price)}</p>
