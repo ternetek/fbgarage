@@ -36,8 +36,3 @@ python3 -m http.server 8080
 
 Luego visitá `http://localhost:8080`.
 
-## Próximos pasos (opcional)
-
-- Reemplazar mock por JSON propio o CMS.
-- Agregar favicon y `og:image` para compartir en redes.
-- Conectar analytics si hace falta.
