@@ -1,38 +1,33 @@
-# Garage & Grill — menú (mock)
+# FB Garage — menú (sitio estático)
 
-Sitio estático listo para publicar en **GitHub Pages**: menú de restaurante con estética rock / biker, datos de ejemplo y estructura fácil de reemplazar.
+Sitio listo para **GitHub Pages**. El menú que ve el cliente es el archivo **`menu/menu_fbgarage.pdf`** incrustado en la página — no hay texto duplicado en HTML/JS.
 
 ## Contenido
 
 | Archivo | Rol |
 |--------|-----|
-| `index.html` | Estructura y textos del hero / footer |
-| `css/styles.css` | Tema visual (oscuro, naranja, tipografía display) |
-| `js/menu-data.js` | **Mock del menú** — categorías, platos, precios, tags |
-| `js/app.js` | Render del menú y pills de navegación |
+| `index.html` | Cabecera, visor PDF (iframe), enlaces abrir/descargar |
+| `css/styles.css` | Tema visual |
+| `menu/menu_fbgarage.pdf` | **Fuente única del menú** |
 
-## Cómo editar el menú real
+## Actualizar el menú
 
-Abrí `js/menu-data.js` y modificá el objeto `MENU_DATA.categories`: cada categoría tiene `id`, `title`, `subtitle`, `badge` y un array `items` con `name`, `desc`, `price` y opcional `tags`.
+Generá el PDF nuevo y **reemplazá** `menu/menu_fbgarage.pdf` en el mismo path; `git push` como siempre.
 
 ## Publicar en GitHub Pages
 
-1. Subí el repo a GitHub (esta carpeta en la raíz del repo o como carpeta que contenga `index.html` en la raíz del sitio).
-2. En el repo: **Settings → Pages**.
-3. **Source**: *Deploy from a branch*.
-4. **Branch**: `main` (o `master`) y carpeta **`/ (root)`** si `index.html` está en la raíz.
-5. Guardá; en unos minutos la URL será `https://ternetek.github.io/fb_garage/`.
+1. Repo en GitHub con `index.html` en la raíz.
+2. **Settings → Pages** → *Deploy from a branch* → `main` → **`/(root)`**.
 
-Si el sitio vive en un subpath (por ejemplo solo `https://usuario.github.io/repo/`), los enlaces actuales usan rutas relativas (`css/`, `js/`) y deberían funcionar sin cambios.
+La URL será `https://<owner>.github.io/<repo>/` (el path debe coincidir con el nombre del repo).
 
 ## Vista local
-
-Abrí `index.html` en el navegador o serví la carpeta con cualquier servidor estático, por ejemplo:
 
 ```bash
 cd /ruta/al/repo
 python3 -m http.server 8080
 ```
 
-Luego visitá `http://localhost:8080`.
+Visitá `http://localhost:8080`. Sin servidor, algunos navegadores pueden bloquear el PDF por `file://`.
 
+**Nota:** En algunos móviles el PDF no se muestra bien dentro del `iframe`; la página incluye enlace para abrirlo en otra pestaña.

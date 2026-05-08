@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Menú — Garage & Grill. Estilo roadhouse, parrilla y birra fría."
+      content="Menú oficial — FB Garage (PDF)."
     />
-    <title>Garage &amp; Grill — Menú</title>
+    <title>FB Garage — Menú</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,37 +21,47 @@
 
     <header class="masthead">
       <div class="masthead-inner">
-        <p class="tagline">Route 66 vibes · Parrilla abierta hasta tarde</p>
+        <p class="tagline">Club house · Menú oficial</p>
         <h1 class="logo">
-          <span class="logo-small">Club house</span>
-          <span class="logo-main">Garage &amp; Grill</span>
+          <span class="logo-small">Garage</span>
+          <span class="logo-main">FB Garage</span>
         </h1>
         <p class="lead">
-          Mock del menú final — burgers con actitud, costillas que piden segunda
-          ronda y birra bien helada en el mismo garaje donde arreglamos las
-          motos entre semana.
+          El contenido del menú es exactamente el del archivo PDF publicado aquí abajo (una sola fuente de verdad).
         </p>
-        <nav class="anchor-nav" aria-label="Saltar a categorías">
-          <!-- Se rellena con JS desde menu-data -->
-        </nav>
       </div>
     </header>
 
-    <main id="menu" class="menu-board">
-      <!-- Bloques por categoría inyectados con JS -->
+    <main id="menu-principal" class="pdf-main">
+      <h2 class="visually-hidden">Menú en PDF</h2>
+
+      <div class="pdf-toolbar" role="toolbar" aria-label="Acciones del menú PDF">
+        <a class="toolbar-link toolbar-link-primary" href="menu/menu_fbgarage.pdf" target="_blank" rel="noopener noreferrer">Abrir en pestaña nueva</a>
+        <a class="toolbar-link" href="menu/menu_fbgarage.pdf" download="menu_fbgarage.pdf">Descargar PDF</a>
+      </div>
+
+      <div class="pdf-shell">
+        <iframe
+          class="pdf-frame"
+          title="Menú FB Garage — documento PDF"
+          src="menu/menu_fbgarage.pdf"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <p class="pdf-fallback">
+        Si no ves el documento integrado en tu navegador o celular,
+        <a href="menu/menu_fbgarage.pdf" target="_blank" rel="noopener noreferrer">abrí el menú en PDF</a>.
+      </p>
     </main>
 
     <footer class="site-footer">
       <div class="footer-inner">
-        <p><strong>Dirección mock:</strong> Av. Libre 884 · Abierto vie–dom · 17:00–02:00</p>
+        <p>Archivo: <code class="footer-code">menu/menu_fbgarage.pdf</code></p>
         <p class="footer-note">
-          Esta es una vista prevía con datos de ejemplo para deploy en GitHub
-          Pages. Reemplazá categorías y platos cuando tengas el menú definitivo.
+          Actualizaciones del menú: reemplazar ese archivo en el repo y publicar los cambios.
         </p>
       </div>
     </footer>
-
-    <script src="js/menu-data.js"></script>
-    <script src="js/app.js"></script>
   </body>
 </html>
