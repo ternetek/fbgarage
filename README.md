@@ -1,33 +1,41 @@
 # FB Garage — menú (sitio estático)
 
-Sitio listo para **GitHub Pages**. El menú que ve el cliente es el archivo **`menu/menu_fbgarage.pdf`** incrustado en la página — no hay texto duplicado en HTML/JS.
+Menú público sin visor PDF: la página arma el listado con **`menu/menu.json`**.
 
-## Contenido
+## Fuente editable del menú
 
-| Archivo | Rol |
+| Archivo | Uso |
 |--------|-----|
-| `index.html` | Cabecera, visor PDF (iframe), enlaces abrir/descargar |
-| `css/styles.css` | Tema visual |
-| `menu/menu_fbgarage.pdf` | **Fuente única del menú** |
+| **`menu/menu.json`** | **Editás esto**: secciones, nombres, precios (`99.00$`, etc.), descripciones, bebidas por subencabezado. |
+| `menu/menu_fbgarage.pdf` | Referencia visual / archivo de trabajo; la web no lo incrusta. |
 
-## Actualizar el menú
+Para cambiar el menú público solo hace falta modificar **`menu/menu.json`** y hacer push.
 
-Generá el PDF nuevo y **reemplazá** `menu/menu_fbgarage.pdf` en el mismo path; `git push` como siempre.
+## Estructura de `menu.json`
 
-## Publicar en GitHub Pages
-
-1. Repo en GitHub con `index.html` en la raíz.
-2. **Settings → Pages** → *Deploy from a branch* → `main` → **`/(root)`**.
-
-La URL será `https://<owner>.github.io/<repo>/` (el path debe coincidir con el nombre del repo).
+- **`meta`** — texto informativo (no se muestra en la página).
+- **`sections`** — cada sección tiene un `id` (para anchors), `title` y según tipo:
+  - **`intro`** — lista de párrafos (bloque tipo “EVENTOS Y PROMOCIONES”).
+  - **`items`** — objetos `{ "name", "price", "description" }`.
+  - **`subsections`** (bebidas): `{ "heading", "entries" }` donde `entries` es un array de **líneas completas tal cual querés mostrarlas** (nombre + precio en un solo string).
+  - **`subtitle`** / **`raw_after_subtitle`** — opcionales (p. ej. menú \$99 cuando el PDF mezcla renglones sueltos).
 
 ## Vista local
 
+`fetch()` no suele funcionar abriendo `index.html` con `file://`. Usá:
+
 ```bash
-cd /ruta/al/repo
 python3 -m http.server 8080
 ```
 
-Visitá `http://localhost:8080`. Sin servidor, algunos navegadores pueden bloquear el PDF por `file://`.
+Desde la raíz del repo (donde está `index.html`).
 
-**Nota:** En algunos móviles el PDF no se muestra bien dentro del `iframe`; la página incluye enlace para abrirlo en otra pestaña.
+Abrí `http://localhost:8080`.
+
+## GitHub Pages
+
+Origen típico: **Settings → Pages → Deploy from branch → main → /(root)**. La página pide **`menu/menu.json`** por HTTP en el mismo dominio/ruta que el sitio.
+
+## Herramienta local (solo si extraés de PDF otra vez)
+
+En el repo hay una venv opcional ignorada por git (`.venv-pdf/`) si usás scripts con `pypdf`/`pymupdf` para transcribir; no es obligatoria para publicar.

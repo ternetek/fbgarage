@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "source_pdf": "menu/menu_fbgarage.pdf",
+    "note": "Editá este archivo para cambiar precios y textos que se muestran en index.html."
+  },
+  "sections": [
+    {
+      "id": "eventos-y-promociones",
+      "title": "EVENTOS Y PROMOCIONES",
+      "intro": [
+        "Al abrir el codigo qr flayers de promociones por dia y despues menú",
+        "fondo negro tenue con blanco",
+        "Que se pueda editar para agregar promos, eventos, alimentos o bebidas nuevas"
+      ]
+    },
+    {
+      "id": "desayunos",
+      "title": "DESAYUNOS",
+      "items": [
+        {
+          "name": "Bowl de fruta",
+          "price": "99.00$",
+          "description": "Melón, fresa, manzana verde y frutos rojos, acompañado de yoguth natural y granola"
+        },
+        {
+          "name": "Breakfast burrito",
+          "price": "109.00$",
+          "description": "Burrito con 3 huevos, jamon, tocino y mozzarella"
+        },
+        {
+          "name": "Huevos estrellados",
+          "price": "119.00$",
+          "description": "Rancheros, divorciados y estrellados, acompañados con frijoles y pan"
+        },
+        {
+          "name": "Huevos revueltos",
+          "price": "119.00$",
+          "description": "A elegir jamon, tocino, espinacas o champiñones, acompañados con frijoles y pan"
+        },
+        {
+          "name": "Omelette",
+          "price": "129.00$",
+          "description": "A elegir jamon, tocino, espinacas o champiñones, acompañados con frijoles y pan"
+        },
+        {
+          "name": "Chilaquiles — Rojos o verdes",
+          "price": "119.00$",
+          "description": "Acompañados de frijoles y pan"
+        },
+        {
+          "name": "El americano",
+          "price": "139.00$",
+          "description": "Hot cakes coronados con huevo estrellado y tocino\n1 pz huevo, 100 gr arrachera, 100 gr pollo"
+        },
+        {
+          "name": "Extras proteinas",
+          "price": "$39",
+          "description": ""
+        },
+        {
+          "name": "Café de olla",
+          "price": "39.00$",
+          "description": ""
+        },
+        {
+          "name": "Tisana",
+          "price": "59.00$",
+          "description": ""
+        },
+        {
+          "name": "Jugo naranja",
+          "price": "49.00$",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "pa-compartir",
+      "title": "PA´ COMPARTIR",
+      "items": [
+        {
+          "name": "Alitas",
+          "price": "159.00$",
+          "description": "10 pz alita chilena (600 gr aprox) bañada con tu salsa favorita: búfalo, bbq, limon - pimienta o pelon pelorico, acompañadas de vegetales y aderezo ranch"
+        },
+        {
+          "name": "Boneless",
+          "price": "129.00$",
+          "description": "Boneless, guacamole, patatas bravas, papas a la francesa, vegetales y aderezo ranch"
+        },
+        {
+          "name": "Papas oink",
+          "price": "149.00$",
+          "description": "Aguachile de camaron seco coronado con aguacate, acompañado con tostadas"
+        },
+        {
+          "name": "Chicken tenders",
+          "price": "119.00$",
+          "description": "Hechos en casa con 200 gr de pechuga de pollo bañados con tu salsa favorita: búfalo, bbq o pelon pelorico, acompañadas de vegetales y aderezo ranch"
+        },
+        {
+          "name": "Cecina",
+          "price": "239.00$",
+          "description": "350 gr de papas a la francesa, gratinadas con mezcla de quesos, tocino, alioli y un toque de sriracha"
+        },
+        {
+          "name": "Chicharron de rib eye",
+          "price": "229.00$",
+          "description": "200 gr de jugosa pechuga de pollo empanizadas, acompañados de tu salsa favorita: búfalo, bbq o ranch"
+        },
+        {
+          "name": "Platón",
+          "price": "389.00$",
+          "description": "100 gr de clasica carne seca bañadas con salsas negras"
+        },
+        {
+          "name": "Botana camaron seco",
+          "price": "149.00$",
+          "description": "Chicharron de rib eye, servido sobre una cama de guacamole, acompañado con totopos"
+        }
+      ]
+    },
+    {
+      "id": "menu-99",
+      "title": "MENÚ DE $99",
+      "subtitle": "Los tradicionales",
+      "raw_after_subtitle": [
+        "250 gr coliflor bañados con salsa búfalo, acompañados de vegetales y aderezo ranch",
+        "350 grs",
+        "helado"
+      ],
+      "items": [
+        {
+          "name": "Guacamole con chicharron",
+          "price": "99.00$",
+          "description": "250 gr de papita cambray morada, tocino, salsa picosita, alioli y perejil"
+        },
+        {
+          "name": "Patatas bravas",
+          "price": "99.00$",
+          "description": ""
+        },
+        {
+          "name": "Tostitos",
+          "price": "99.00$",
+          "description": ""
+        },
+        {
+          "name": "Coliflor Búfalo",
+          "price": "99.00$",
+          "description": ""
+        },
+        {
+          "name": "Papas a la francesa",
+          "price": "99.00$",
+          "description": ""
+        },
+        {
+          "name": "Brownie chocolate",
+          "price": "99.00$",
+          "description": "Delicioso brownie de chocolate acompañado con helado"
+        },
+        {
+          "name": "Chesscake frambuesa",
+          "price": "99.00$",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "burgers-y-pizzas",
+      "title": "LAS BURGER´S Y PIZZAS",
+      "items": [
+        {
+          "name": "Hamburguesa res",
+          "price": "179.00$",
+          "description": "150 gr de jugosa carne de res, mezcla de quesos, tocino, aros de cebolla, bbq y vegetetales. Acompañada con papas a la francesa"
+        },
+        {
+          "name": "Hamburguesa portobello",
+          "price": "159.00$",
+          "description": "Portobello gratinado con mezcla de quesos, morron asado, cebollita caramelizada, calabaza al grill. Acompañada con papas a la francesa"
+        },
+        {
+          "name": "Hamburguesa krispy chicken",
+          "price": "179.00$",
+          "description": "120 gr de jugosa pechuga de pollo krispy, gratinada con mozzarella, bañada en salsa búfalo y vegetales. Acompañada con papas a la francesa"
+        },
+        {
+          "name": "Pizza pepperoni",
+          "price": "129.00$",
+          "description": "La tradicioal de pepperoni"
+        },
+        {
+          "name": "Pizza carnes frias",
+          "price": "149.00$",
+          "description": "Pepperoni, tocino, jamón y salchicha"
+        },
+        {
+          "name": "Pizza 3 quesos",
+          "price": "149.00$",
+          "description": "Mozzarella, monterrey jack y cheddar suave"
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "title": "Bebidas",
+      "subsections": [
+        {
+          "heading": "CERVEZAS",
+          "entries": [
+            "CORONA 355ML 35.00$",
+            "CORONA LIGHT 355ML 35.00$",
+            "VICTORIA 355ML 35.00$",
+            "NEGRA MODELO 355ML 45.00$",
+            "AMPOLLETITA 210ML 25.00$",
+            "AMPOLLETITA CERO 25.00$",
+            "MEGA CORONA 1.2ML 99.00$",
+            "MEGA VICTORIA 1.2ML 99.00$",
+            "CUBETA CORONA/ LIGHT /VICTORIA 300.00$",
+            "CUBETA AMPOLLETITA 200.00$",
+            "CUBETA NEGRA MODELO 400.00$"
+          ]
+        },
+        {
+          "heading": "LATAS",
+          "entries": [
+            "NEVEN GREEN 330ML 60.00$",
+            "CLAMATO GDE 50.00$",
+            "CLAMATO CHICO 35.00$",
+            "MICHELADA CHICA 60.00$",
+            "MICHELADA GRANDE 120.00$",
+            "JACK DANIELS 60.00$",
+            "NEW MIX 60.00$"
+          ]
+        },
+        {
+          "heading": "VINO TINTO",
+          "entries": [
+            "CONCHA Y TORO BOTELLA 250.00$",
+            "CONCHA Y TORO COPA 90.00$",
+            "COPA CLERICOT 110.00$",
+            "JARRA CLERICOT 499.00$"
+          ]
+        },
+        {
+          "heading": "SIN ALCOHOL",
+          "entries": [
+            "RED BULL 250ML 60.00$",
+            "MONSTER BLANCO 473ML 60.00$",
+            "COCA COLA 600ML 35.00$",
+            "COCA ZERO 600ML 35.00$",
+            "COCA LIGHT 600ML 35.00$",
+            "MINERAL 355ML 35.00$",
+            "AGUA NATURAL 600ML 25.00$",
+            "NARANJADA / LIMONADA 49.00$"
+          ]
+        }
+      ]
+    }
+  ]
+}

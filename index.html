@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Menú oficial — FB Garage (PDF)."
+      content="Menú — FB Garage. Datos desde menu/menu.json."
     />
     <title>FB Garage — Menú</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,52 +16,38 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body data-menu-json="menu/menu.json">
     <div class="noise" aria-hidden="true"></div>
 
     <header class="masthead">
       <div class="masthead-inner">
-        <p class="tagline">Club house · Menú oficial</p>
+        <p class="tagline">Club house · Menú digital</p>
         <h1 class="logo">
           <span class="logo-small">Garage</span>
           <span class="logo-main">FB Garage</span>
         </h1>
         <p class="lead">
-          El contenido del menú es exactamente el del archivo PDF publicado aquí abajo (una sola fuente de verdad).
+          El contenido viene de <strong>menu/menu.json</strong> — editás ese archivo (precios,
+          platillos y secciones) y publicás los cambios; no hay visor PDF en la página.
         </p>
+        <nav class="anchor-nav" aria-label="Ir a categoría"></nav>
       </div>
     </header>
 
-    <main id="menu-principal" class="pdf-main">
-      <h2 class="visually-hidden">Menú en PDF</h2>
-
-      <div class="pdf-toolbar" role="toolbar" aria-label="Acciones del menú PDF">
-        <a class="toolbar-link toolbar-link-primary" href="menu/menu_fbgarage.pdf" target="_blank" rel="noopener noreferrer">Abrir en pestaña nueva</a>
-        <a class="toolbar-link" href="menu/menu_fbgarage.pdf" download="menu_fbgarage.pdf">Descargar PDF</a>
-      </div>
-
-      <div class="pdf-shell">
-        <iframe
-          class="pdf-frame"
-          title="Menú FB Garage — documento PDF"
-          src="menu/menu_fbgarage.pdf"
-          loading="lazy"
-        ></iframe>
-      </div>
-
-      <p class="pdf-fallback">
-        Si no ves el documento integrado en tu navegador o celular,
-        <a href="menu/menu_fbgarage.pdf" target="_blank" rel="noopener noreferrer">abrí el menú en PDF</a>.
-      </p>
+    <main id="menu-principal" class="menu-layout">
+      <h2 class="visually-hidden">Menú</h2>
+      <div id="menu-root" class="menu-board"></div>
     </main>
 
     <footer class="site-footer">
       <div class="footer-inner">
-        <p>Archivo: <code class="footer-code">menu/menu_fbgarage.pdf</code></p>
+        <p>Fuente de datos: <code class="footer-code">menu/menu.json</code></p>
         <p class="footer-note">
-          Actualizaciones del menú: reemplazar ese archivo en el repo y publicar los cambios.
+          Referencia original en PDF (<code class="footer-code">menu/menu_fbgarage.pdf</code>) puede quedar como archivo de respaldo fuera del menú público si lo prefieren.
         </p>
       </div>
     </footer>
+
+    <script src="js/app.js" defer></script>
   </body>
 </html>

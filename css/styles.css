@@ -1,6 +1,7 @@
 :root {
   --color-bg-deep: #0c0b0a;
   --color-bg-panel: #141210;
+  --color-bg-card: #1a1816;
   --color-orange-hot: #e8783a;
   --color-accent-glow: rgba(232, 120, 58, 0.35);
   --color-text: #eae6df;
@@ -65,7 +66,7 @@ body {
 
 .masthead {
   position: relative;
-  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 3rem) clamp(1.25rem, 3vw, 2rem);
+  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 3rem) clamp(1rem, 2vw, 1.75rem);
   overflow: hidden;
 }
 
@@ -130,35 +131,33 @@ body {
 }
 
 .lead {
-  margin: 0;
-  max-width: 40rem;
+  margin: 0 0 1.25rem;
+  max-width: 42rem;
   color: var(--color-text-muted);
   font-size: 1.05rem;
 }
 
-.pdf-main {
-  max-width: min(92rem, 100%);
-  margin: 0 auto;
-  padding: 0 clamp(1rem, 3vw, 2rem) clamp(2rem, 5vw, 3rem);
+.lead strong {
+  color: var(--color-text);
+  font-weight: 500;
 }
 
-.pdf-toolbar {
+.anchor-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 0.65rem;
-  margin-bottom: 1rem;
 }
 
-.toolbar-link {
+.anchor-pill {
   display: inline-flex;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0.45rem 0.85rem;
   border-radius: 999px;
   border: 0.5px solid var(--color-border-strong);
   background: rgba(20, 18, 16, 0.85);
   color: var(--color-chrome);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.04em;
   transition:
@@ -168,42 +167,58 @@ body {
     transform 0.15s ease;
 }
 
-.toolbar-link:hover {
+.anchor-pill:hover {
   border-color: var(--color-orange-hot);
   color: var(--color-text);
   box-shadow: 0 0 20px var(--color-accent-glow);
 }
 
-.toolbar-link:active {
+.anchor-pill:active {
   transform: scale(0.97);
 }
 
-.toolbar-link:focus-visible {
+.anchor-pill:focus-visible {
   outline: 2px solid var(--color-orange-hot);
   outline-offset: 3px;
 }
 
-.toolbar-link-primary {
-  border-color: rgba(232, 120, 58, 0.45);
-  color: var(--color-text);
+.menu-layout {
+  max-width: 58rem;
+  margin: 0 auto;
+  padding: clamp(0.75rem, 2vw, 1.25rem) clamp(1.25rem, 4vw, 3rem) clamp(2.5rem, 6vw, 4rem);
 }
 
-.pdf-shell {
+.menu-board {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 4vw, 2.75rem);
+}
+
+.menu-error {
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.menu-error code {
+  font-family: ui-monospace, monospace;
+  font-size: 0.9em;
+}
+
+.menu-category {
   position: relative;
+  padding: clamp(1.5rem, 3vw, 2rem);
   border-radius: var(--radius-lg);
-  overflow: hidden;
-  border: 0.5px solid var(--color-border);
   background: linear-gradient(145deg, var(--color-bg-panel), #0f0e0c);
+  border: 0.5px solid var(--color-border);
   box-shadow: var(--shadow-panel);
-  min-height: min(80vh, 900px);
 }
 
-.pdf-shell::after {
+.menu-category::after {
   content: "";
   position: absolute;
   top: 0;
-  left: 1rem;
-  right: 1rem;
+  left: 1.5rem;
+  right: 1.5rem;
   height: 2px;
   background: linear-gradient(
     90deg,
@@ -214,31 +229,165 @@ body {
   opacity: 0.55;
   border-radius: 1px;
   pointer-events: none;
-  z-index: 1;
 }
 
-.pdf-frame {
-  display: block;
-  width: 100%;
-  height: min(82vh, 920px);
-  border: none;
-  background: #1a1816;
+.menu-category-notice .category-head {
+  margin-bottom: 0.75rem;
 }
 
-.pdf-fallback {
-  margin: 1rem 0 0;
-  font-size: 0.98rem;
+.notice-list {
+  margin: 0;
+  padding-left: 1.25rem;
   color: var(--color-text-muted);
-  text-align: center;
+  font-size: 1.02rem;
 }
 
-.pdf-fallback a {
+.notice-list li {
+  margin-bottom: 0.35rem;
+}
+
+.category-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.35rem;
+}
+
+.category-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 3.2vw, 1.75rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.category-sub {
+  margin: 0.35rem 0 0;
+  font-size: 1rem;
+  color: var(--color-orange-hot);
+  font-weight: 500;
+}
+
+.menu-raw {
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  border: 0.5px dashed var(--color-border-strong);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.menu-raw-line {
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.menu-raw-line:last-child {
+  margin-bottom: 0;
+}
+
+.dish-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .dish-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.menu-category-drinks .dish-grid {
+  grid-template-columns: 1fr;
+}
+
+.dish-card {
+  padding: 1.05rem 1.15rem;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  border: 0.5px solid var(--color-border);
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.dish-card:hover {
+  border-color: var(--color-border-strong);
+  transform: translateY(-2px);
+}
+
+.dish-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.dish-name {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.08rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.dish-price {
+  margin: 0;
+  flex-shrink: 0;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.06em;
   color: var(--color-orange-hot);
 }
 
-.pdf-fallback a:focus-visible {
-  outline: 2px solid var(--color-orange-hot);
-  outline-offset: 3px;
+.dish-desc {
+  margin: 0;
+  font-size: 0.96rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}
+
+.bev-wrap {
+  display: grid;
+  gap: 1.25rem;
+}
+
+@media (min-width: 720px) {
+  .bev-wrap {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.bev-heading {
+  margin: 0 0 0.65rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--color-orange-hot);
+}
+
+.bev-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bev-row {
+  margin-bottom: 0.45rem;
+  font-family: ui-monospace, monospace;
+  font-size: 0.9rem;
+  color: var(--color-chrome);
+  line-height: 1.35;
+}
+
+.bev-line {
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .site-footer {
@@ -279,19 +428,17 @@ body {
   color: var(--color-text);
 }
 
-@media (max-width: 640px) {
-  .pdf-frame {
-    height: 70vh;
-    min-height: 420px;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 
-  .toolbar-link {
+  .anchor-pill,
+  .dish-card {
     transition: none;
+  }
+
+  .dish-card:hover {
+    transform: none;
   }
 }
