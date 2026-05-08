@@ -153,48 +153,40 @@ body.garage-theme {
   color: var(--color-orange);
 }
 
+/* Mismo ancho máximo que .promo-grid en móvil (tarjetas promo) */
 .logo {
-  margin: 0 0 1rem;
-  line-height: 1.05;
+  width: 100%;
+  max-width: min(22rem, 92vw);
+  margin: 0 auto 1rem;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo-small {
+.logo-img {
   display: block;
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  font-weight: 500;
-  letter-spacing: 0.26em;
-  text-transform: uppercase;
-  color: var(--color-text-muted);
-  margin-bottom: 0.4rem;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: center center;
+  /* PNG con fondo transparente: solo sombras para leer sobre el hero */
+  filter:
+    drop-shadow(0 0 32px rgba(232, 120, 58, 0.28))
+    drop-shadow(0 6px 28px rgba(0, 0, 0, 0.65));
 }
 
-@media (max-width: 380px) {
-  .logo-small {
-    font-size: 0.82rem;
-    letter-spacing: 0.14em;
+@media (min-width: 520px) {
+  .logo {
+    max-width: min(22rem, 90vw);
   }
 }
 
-@media (min-width: 400px) {
-  .logo-small {
-    font-size: 0.95rem;
-    letter-spacing: 0.28em;
+@media (min-width: 900px) {
+  .logo {
+    max-width: min(24rem, 90vw);
   }
-}
-
-.logo-main {
-  display: block;
-  font-family: var(--font-display);
-  font-size: clamp(2.6rem, 9vw, 3.85rem);
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--color-chrome);
-  text-shadow:
-    0 0 50px var(--color-accent-glow),
-    0 2px 0 rgba(0, 0, 0, 0.55),
-    0 0 1px rgba(255, 255, 255, 0.15);
 }
 
 .lead {

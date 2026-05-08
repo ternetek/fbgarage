@@ -41,3 +41,13 @@ Origen típico: **Settings → Pages → Deploy from branch → main → /(root)
 ## Herramienta local (solo si extraés de PDF otra vez)
 
 En el repo hay una venv opcional ignorada por git (`.venv-pdf/`) si usás scripts con `pypdf`/`pymupdf` para transcribir; no es obligatoria para publicar.
+
+## Logo en la web
+
+El hero usa **`logos/fb-garage-logo.png`**: logo **blanco** y fondo **totalmente transparente**, generado desde **`logos/FB_GARAGE.ai`** (en el PDF el arte es **claro sobre fondo oscuro**; el script invierte eso). Regenerar:
+
+```bash
+.venv-pdf/bin/python scripts/export-logo.py
+```
+
+(Ajustá `DARK_MAX` / `LIGHT_MIN` en el script si hace falta más/menos detalle en bordes.)
