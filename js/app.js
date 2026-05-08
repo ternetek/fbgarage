@@ -30,6 +30,41 @@
     `;
   }
 
+  function renderPromoGallery(section) {
+    const raw = section.images || [];
+    const entries = raw
+      .map((img) => {
+        if (typeof img === "string") return { src: img, alt: "" };
+        return { src: img.src, alt: img.alt || "" };
+      })
+      .filter((e) => e.src && String(e.src).trim());
+
+    if (!entries.length) return "";
+
+    const figures = entries
+      .map((e) => {
+        const src = escapeHtml(e.src);
+        const alt = escapeHtml(e.alt);
+        return `
+          <figure class="promo-card">
+            <img class="promo-img" src="${src}" alt="${alt}" loading="lazy" decoding="async" />
+          </figure>
+        `;
+      })
+      .join("");
+
+    return `
+      <section class="menu-category menu-category-promos" id="${escapeHtml(section.id)}" aria-labelledby="h-${escapeHtml(section.id)}">
+        <header class="category-head">
+          <div class="category-titles">
+            <h2 class="category-title" id="h-${escapeHtml(section.id)}">${escapeHtml(section.title)}</h2>
+          </div>
+        </header>
+        <div class="promo-grid">${figures}</div>
+      </section>
+    `;
+  }
+
   function renderItemsSection(section) {
     const subtitle = section.subtitle
       ? `<p class="category-sub">${escapeHtml(section.subtitle)}</p>`
@@ -118,8 +153,17 @@
   }
 
   function detectSection(section) {
-    if (section.intro && Array.isArray(section.intro)) return "notice";
     if (section.subsections && section.subsections.length) return "bebidas";
+    if (
+      section.images &&
+      Array.isArray(section.images) &&
+      section.images.length
+    ) {
+      return "promos";
+    }
+    if (section.intro && Array.isArray(section.intro) && section.intro.length) {
+      return "notice";
+    }
     return "items";
   }
 
@@ -136,6 +180,7 @@
       .map((section) => {
         const kind = detectSection(section);
         if (kind === "notice") return renderNotice(section);
+        if (kind === "promos") return renderPromoGallery(section);
         if (kind === "bebidas") return renderBebidas(section);
         return renderItemsSection(section);
       })

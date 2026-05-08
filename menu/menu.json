@@ -7,10 +7,13 @@
     {
       "id": "eventos-y-promociones",
       "title": "EVENTOS Y PROMOCIONES",
-      "intro": [
-        "Al abrir el codigo qr flayers de promociones por dia y despues menú",
-        "fondo negro tenue con blanco",
-        "Que se pueda editar para agregar promos, eventos, alimentos o bebidas nuevas"
+      "images": [
+        { "src": "menu/promos/martes_domino.jpeg", "alt": "Martes dominó" },
+        { "src": "menu/promos/unplugged.jpeg", "alt": "Unplugged" },
+        { "src": "menu/promos/sabado_rock.jpeg", "alt": "Sábado rock" },
+        { "src": "menu/promos/4_combo.jpeg", "alt": "Promo combo 4" },
+        { "src": "menu/promos/pizza_vino.jpeg", "alt": "Pizza y vino" },
+        { "src": "menu/promos/v_twin.jpeg", "alt": "V-Twin" }
       ]
     },
     {
