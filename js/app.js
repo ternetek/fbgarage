@@ -90,9 +90,19 @@
             imgAlt = item.image.alt != null ? item.image.alt : imgAlt;
           }
         }
+        const focus = (item.imageFocus || "")
+          .toString()
+          .trim()
+          .toLowerCase();
+        const imgClasses = ["dish-img"];
+        if (focus === "bottom") imgClasses.push("dish-img--focus-bottom");
+        if (focus === "top") imgClasses.push("dish-img--focus-top");
+
         const imgHtml =
           imgSrc && String(imgSrc).trim()
-            ? `<div class="dish-media"><img class="dish-img" src="${escapeHtml(
+            ? `<div class="dish-media"><img class="${escapeHtml(
+                imgClasses.join(" ")
+              )}" src="${escapeHtml(
                 imgSrc.trim()
               )}" alt="${escapeHtml(String(imgAlt))}" loading="lazy" decoding="async" /></div>`
             : "";

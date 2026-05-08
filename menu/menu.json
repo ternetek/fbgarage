@@ -29,6 +29,7 @@
         {
           "name": "Breakfast burrito",
           "image": "menu/dishes/breakfast_burrito.jpeg",
+          "imageFocus": "top",
           "price": "$109.00",
           "description": "Burrito con 3 huevos, jamon, tocino y mozzarella"
         },
@@ -53,12 +54,14 @@
         {
           "name": "Chilaquiles — Rojos o verdes",
           "image": "menu/dishes/chilaquiles.jpeg",
+          "imageFocus": "bottom",
           "price": "$119.00",
           "description": "Acompañados de frijoles y pan"
         },
         {
           "name": "El americano",
           "image": "menu/dishes/americano.jpeg",
+          "imageFocus": "bottom",
           "price": "$139.00",
           "description": "Hot cakes coronados con huevo estrellado y tocino"
         },
@@ -122,11 +125,12 @@
           "name": "Chicharron de rib eye",
           "image": "menu/dishes/chicharron_ribeye.jpeg",
           "price": "$229.00",
-          "description": "Chicharron de rib eye, servido sobre una cama de guacamole, acompañado con totopos"
+          "description": "Chicharron de rib eye, servido sobre una cama de guacamole, acompañado con tortillas"
         },
         {
           "name": "Platón",
           "image": "menu/dishes/platon.jpeg",
+          "imageFocus": "bottom",
           "price": "$389.00",
           "description": "Boneless, guacamole, patatas bravas, papas a la francesa, vegetales y aderezo ranch"
         },

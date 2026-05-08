@@ -601,6 +601,16 @@ body.garage-theme {
   height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  object-position: center center;
+}
+
+/* Recorte vertical: priorizar borde inferior / superior del encuadre */
+.dish-img--focus-bottom {
+  object-position: center bottom;
+}
+
+.dish-img--focus-top {
+  object-position: center top;
 }
 
 @media (min-width: 700px) {
@@ -759,6 +769,49 @@ body.garage-theme {
   background: rgba(212, 206, 196, 0.06);
   border: 0.5px solid var(--color-border);
   color: var(--color-text);
+}
+
+.footer-social {
+  margin: 1.25rem 0 0;
+}
+
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 0.5px solid rgba(232, 120, 58, 0.35);
+  background: rgba(232, 120, 58, 0.08);
+  color: var(--color-orange);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.footer-social-link:hover {
+  border-color: var(--color-orange);
+  color: var(--color-text);
+  box-shadow: 0 0 20px rgba(232, 120, 58, 0.22);
+}
+
+.footer-social-link:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 3px;
+}
+
+@media (hover: none) {
+  .footer-social-link:active {
+    opacity: 0.92;
+  }
 }
 
 @media (min-width: 900px) {
