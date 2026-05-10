@@ -72,16 +72,21 @@
         },
         {
           "name": "Café de olla",
+          "image": "menu/dishes/cafe_olla.jpeg",
           "price": "$39.00",
           "description": ""
         },
         {
           "name": "Tisana",
+          "image": "menu/dishes/tisana.jpeg",
+          "imageFocus": "top",
           "price": "$59.00",
           "description": ""
         },
         {
           "name": "Jugo naranja",
+          "image": "menu/dishes/jugo_naranja.jpeg",
+          "imageFocus": "top",
           "price": "$49.00",
           "description": ""
         }
@@ -178,11 +183,13 @@
         },
         {
           "name": "Brownie chocolate",
+          "image": "menu/dishes/brownie.jpeg",
           "price": "$99.00",
           "description": "helado"
         },
         {
           "name": "Chesscake frambuesa",
+          "image": "menu/dishes/cheescake.jpeg",
           "price": "$99.00",
           "description": "pastel"
         }
@@ -200,16 +207,19 @@
         },
         {
           "name": "Hamburguesa portobello",
+          "image": "menu/dishes/hamburguesa_portobello.jpeg",
           "price": "$159.00",
           "description": "Portobello gratinado con mezcla de quesos, morron asado, cebollita caramelizada, calabaza al grill. Acompañada con papas a la francesa"
         },
         {
           "name": "Hamburguesa krispy chicken",
+          "image": "menu/dishes/hamburguesa_chicken.jpeg",
           "price": "$179.00",
           "description": "120 gr de jugosa pechuga de pollo krispy, gratinada con mozzarella, bañada en salsa búfalo y vegetales. Acompañada con papas a la francesa"
         },
         {
           "name": "Pizza pepperoni",
+          "image": "menu/dishes/pizza_pepperoni.jpeg",
           "price": "$129.00",
           "description": "La tradicioal de pepperoni"
         },
@@ -221,6 +231,7 @@
         },
         {
           "name": "Pizza 3 quesos",
+          "image": "menu/dishes/pizza_quesos.jpeg",
           "price": "$149.00",
           "description": "Mozzarella, monterrey jack y cheddar suave"
         }
