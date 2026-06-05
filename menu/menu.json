@@ -13,7 +13,8 @@
         { "src": "menu/promos/sabado_rock.jpeg", "alt": "Sábado rock" },
         { "src": "menu/promos/4_combo.jpeg", "alt": "Promo combo 4" },
         { "src": "menu/promos/pizza_vino.jpeg", "alt": "Pizza y vino" },
-        { "src": "menu/promos/v_twin.jpeg", "alt": "V-Twin" }
+        { "src": "menu/promos/v_twin.jpeg", "alt": "V-Twin" },
+        { "src": "menu/promos/lonchesito_banado.jpg", "alt": "lonchesito" }
       ]
     },
     {
@@ -244,38 +245,55 @@
         {
           "heading": "CERVEZAS",
           "entries": [
-            "CORONA 355ML $35.00",
-            "CORONA LIGHT 355ML $35.00",
-            "VICTORIA 355ML $35.00",
-            "NEGRA MODELO 355ML $45.00",
-            "AMPOLLETITA 210ML $25.00",
-            "AMPOLLETITA CERO $25.00",
-            "MEGA CORONA 1.2ML $99.00",
-            "MEGA VICTORIA 1.2ML $99.00",
-            "CUBETA CORONA/ LIGHT /VICTORIA $300.00",
-            "CUBETA AMPOLLETITA $200.00",
-            "CUBETA NEGRA MODELO $400.00"
+            "CORONA 355ML $39.00",
+            "CORONA LIGHT 355ML $39.00",
+            "VICTORIA 355ML $39.00",
+            "NEGRA MODELO 355ML $49.00",
+            "AMPOLLETITA 210ML $29.00",
+            "AMPOLLETITA CERO $29.00",
+            "MEGA CORONA 1.2LT $105.00",
+            "MEGA VICTORIA 1.2LT $105.00",
+            "CUBETA CORONA/ LIGHT /VICTORIA $340.00",
+            "CUBETA AMPOLLETITA $240.00",
+            "CUBETA NEGRA MODELO $440.00"
+          ]
+        },
+        {
+          "heading": "ARTESANAL",
+          "entries": [
+            "NEVEN GREEN 330ML $65.00",
+            "SUBLIME 330ML $90.00"
+          ]
+        },
+        {
+          "heading": "PREPARADOS",
+          "entries": [
+            "CLAMATO GDE $55.00",
+            "CLAMATO CHICO $40.00",
+            "MICHELADA CHICA $65.00",
+            "MICHELADA GRANDE $125.00"
           ]
         },
         {
           "heading": "LATAS",
           "entries": [
-            "NEVEN GREEN 330ML $60.00",
-            "CLAMATO GDE $50.00",
-            "CLAMATO CHICO $35.00",
-            "MICHELADA CHICA $60.00",
-            "MICHELADA GRANDE $120.00",
-            "JACK DANIELS $60.00",
-            "NEW MIX $60.00"
+            "JACK DANIELS $65.00",
+            "NEW MIX $65.00",
+            "CAMPO AZUL PALOMA $70.00",
+            "CAMPO AZUL MARGARITA $70.00",
+            "CAMPO AZUL FRUTOS ROJOS $70.00",
+            "CAMPO AZUL AGUA MINERAL $70.00"
           ]
         },
         {
           "heading": "VINO TINTO",
           "entries": [
-            "CONCHA Y TORO BOTELLA $250.00",
-            "CONCHA Y TORO COPA $90.00",
-            "COPA CLERICOT $110.00",
-            "JARRA CLERICOT $499.00"
+            "CONCHA Y TORO BOTELLA $260.00",
+            "CONCHA Y TORO COPA $95.00",
+            "COPA CLERICOT $115.00",
+            "JARRA CLERICOT $499.00",
+            "SELECCION BOTELLA $250.00",
+            "SELECCION COPA $80.00"
           ]
         },
         {
@@ -283,11 +301,12 @@
           "entries": [
             "RED BULL 250ML $60.00",
             "MONSTER BLANCO 473ML $60.00",
-            "COCA COLA 600ML $35.00",
-            "COCA ZERO 600ML $35.00",
-            "COCA LIGHT 600ML $35.00",
-            "MINERAL 355ML $35.00",
+            "COCA COLA 600ML $39.00",
+            "COCA ZERO 600ML $39.00",
+            "COCA LIGHT 600ML $39.00",
+            "MINERAL 355ML $39.00",
             "AGUA NATURAL 600ML $25.00",
+            "AGUA NATURAL 1 LT $35.00",
             "NARANJADA / LIMONADA $49.00"
           ]
         }
