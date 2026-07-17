@@ -605,6 +605,15 @@ body.garage-theme {
   object-position: center top;
 }
 
+/* Puntos medios: TC = top↔center, BC = bottom↔center */
+.dish-img--focus-tc {
+  object-position: center 25%;
+}
+
+.dish-img--focus-bc {
+  object-position: center 75%;
+}
+
 @media (min-width: 700px) {
   .dish-card {
     padding: 1.2rem 1.15rem 1.35rem;

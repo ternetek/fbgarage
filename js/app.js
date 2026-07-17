@@ -97,6 +97,8 @@
         const imgClasses = ["dish-img"];
         if (focus === "bottom") imgClasses.push("dish-img--focus-bottom");
         if (focus === "top") imgClasses.push("dish-img--focus-top");
+        if (focus === "bc") imgClasses.push("dish-img--focus-bc");
+        if (focus === "tc") imgClasses.push("dish-img--focus-tc");
 
         const imgHtml =
           imgSrc && String(imgSrc).trim()
