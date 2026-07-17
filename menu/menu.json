@@ -153,6 +153,7 @@
         {
           "name": "Lonchecito bañado",
           "image": "menu/dishes/lonchecito_banado.jpeg",
+          "imageFocus": "bottom",
           "price": "$49.00",
           "description": "Mini lonche de pierna bañado en salsa cremosita con un toque de chipotle y aderezo especial"
         },
@@ -165,14 +166,28 @@
         {
           "name": "Papas doradas",
           "image": "menu/dishes/papas_doradas.jpeg",
+          "imageFocus": "BC",
           "price": "$129.00",
           "description": "Las tradicionales papas doradas caseras con salsas"
         },
         {
           "name": "Chicken quesadilla",
           "image": "menu/dishes/chicken_quesadilla.jpeg",
+          "imageFocus": "BC",
           "price": "$139.00",
           "description": "Quesadilla de pollo con mix de morron tricolor y cebolla, acompañado con guacamole"
+        },
+        {
+          "name": "Ensalada con boneless",
+          "image": "menu/dishes/ensalada_boneless.jpeg",
+          "imageFocus": "bottom",
+          "price": "$169.00",
+          "description": "mix de lechugas con pepino, morron, cebolla morada y aguacate, con un toque de aderezo ranch, coronada con boneless buffalo o bbq a tu elección"
+        },
+        {
+          "name": "Pollo a la plancha",
+          "price": "$149.00",
+          "description": "Opción para cambiar los boneless por pollo en ensalada"
         }
       ]
     },
