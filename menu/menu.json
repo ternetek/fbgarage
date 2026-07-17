@@ -9,12 +9,10 @@
       "title": "EVENTOS Y PROMOCIONES",
       "images": [
         { "src": "menu/promos/martes_domino.jpeg", "alt": "Martes dominó" },
-        { "src": "menu/promos/unplugged.jpeg", "alt": "Unplugged" },
         { "src": "menu/promos/sabado_rock.jpeg", "alt": "Sábado rock" },
         { "src": "menu/promos/4_combo.jpeg", "alt": "Promo combo 4" },
-        { "src": "menu/promos/pizza_vino.jpeg", "alt": "Pizza y vino" },
         { "src": "menu/promos/v_twin.jpeg", "alt": "V-Twin" },
-        { "src": "menu/promos/lonchesito_banado.jpg", "alt": "lonchesito" }
+        { "src": "menu/promos/chicken_quesadilla_promo.jpeg", "alt": "chicken_quesadilla" }
       ]
     },
     {
@@ -65,6 +63,12 @@
           "imageFocus": "bottom",
           "price": "$139.00",
           "description": "Hot cakes coronados con huevo estrellado y tocino"
+        },
+        {
+          "name": "La ahogadita",
+          "image": "menu/dishes/la_ahogadita.jpeg",
+          "price": "$49.00",
+          "description": "La tradicional mini tortita ahogada"
         },
         {
           "name": "Extras proteinas",
@@ -145,6 +149,30 @@
           "image": "menu/dishes/botana_camaron.jpeg",
           "price": "$149.00",
           "description": "Aguachile de camaron seco coronado con aguacate, acompañado con tostadas"
+        },
+        {
+          "name": "Lonchecito bañado",
+          "image": "menu/dishes/lonchecito_banado.jpeg",
+          "price": "$49.00",
+          "description": "Mini lonche de pierna bañado en salsa cremosita con un toque de chipotle y aderezo especial"
+        },
+        {
+          "name": "Papas locas",
+          "image": "menu/dishes/papas_locas.jpeg",
+          "price": "$109.00",
+          "description": "Papas doradas caseras acompañadas con salchicha y salsas"
+        },
+        {
+          "name": "Papas doradas",
+          "image": "menu/dishes/papas_doradas.jpeg",
+          "price": "$129.00",
+          "description": "Las tradicionales papas doradas caseras con salsas"
+        },
+        {
+          "name": "Chicken quesadilla",
+          "image": "menu/dishes/chicken_quesadilla.jpeg",
+          "price": "$139.00",
+          "description": "Quesadilla de pollo con mix de morron tricolor y cebolla, acompañado con guacamole"
         }
       ]
     },
@@ -169,12 +197,6 @@
           "image": "menu/dishes/tostitos.jpeg",
           "price": "$99.00",
           "description": "Los tradicionales"
-        },
-        {
-          "name": "Coliflor Búfalo",
-          "image": "menu/dishes/coliflor_buffalo.jpeg",
-          "price": "$99.00",
-          "description": "250 gr coliflor bañados con salsa búfalo, acompañados de vegetales y aderezo ranch"
         },
         {
           "name": "Papas a la francesa",
@@ -205,12 +227,6 @@
           "image": "menu/dishes/hamburguesa_res.jpeg",
           "price": "$179.00",
           "description": "150 gr de jugosa carne de res, mezcla de quesos, tocino, aros de cebolla, bbq y vegetetales. Acompañada con papas a la francesa"
-        },
-        {
-          "name": "Hamburguesa portobello",
-          "image": "menu/dishes/hamburguesa_portobello.jpeg",
-          "price": "$159.00",
-          "description": "Portobello gratinado con mezcla de quesos, morron asado, cebollita caramelizada, calabaza al grill. Acompañada con papas a la francesa"
         },
         {
           "name": "Hamburguesa krispy chicken",
