@@ -65,12 +65,6 @@
           "description": "Hot cakes coronados con huevo estrellado y tocino"
         },
         {
-          "name": "La ahogadita",
-          "image": "menu/dishes/la_ahogadita.jpeg",
-          "price": "$49.00",
-          "description": "La tradicional mini tortita ahogada"
-        },
-        {
           "name": "Extras proteinas",
           "price": "$39.00",
           "description": "1 pz huevo, 100 gr arrachera, 100 gr pollo"
@@ -143,12 +137,6 @@
           "imageFocus": "bottom",
           "price": "$389.00",
           "description": "Boneless, guacamole, patatas bravas, papas a la francesa, vegetales y aderezo ranch"
-        },
-        {
-          "name": "Botana camaron seco",
-          "image": "menu/dishes/botana_camaron.jpeg",
-          "price": "$149.00",
-          "description": "Aguachile de camaron seco coronado con aguacate, acompañado con tostadas"
         },
         {
           "name": "Lonchecito bañado",
