@@ -1,0 +1,12 @@
+{
+  "name": "F&B Garage menu",
+  "user": "ubuntu",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "static-server",
+      "command": "python3 -m http.server 8080"
+    }
+  ],
+  "ports": [8080]
+}
