@@ -8,11 +8,10 @@
       "id": "eventos-y-promociones",
       "title": "EVENTOS Y PROMOCIONES",
       "images": [
-        { "src": "menu/promos/martes_domino.jpeg", "alt": "Martes dominó" },
+        { "src": "menu/promos/pizza_boneless_octubre.jpeg", "alt": "Especial de octubre pizza boneless" },
         { "src": "menu/promos/sabado_rock.jpeg", "alt": "Sábado rock" },
         { "src": "menu/promos/4_combo.jpeg", "alt": "Promo combo 4" },
-        { "src": "menu/promos/v_twin.jpeg", "alt": "V-Twin" },
-        { "src": "menu/promos/chicken_quesadilla_promo.jpeg", "alt": "chicken_quesadilla" }
+        { "src": "menu/promos/v_twin.jpeg", "alt": "V-Twin" }
       ]
     },
     {
@@ -54,14 +53,14 @@
           "name": "Chilaquiles — Rojos o verdes",
           "image": "menu/dishes/chilaquiles.jpeg",
           "imageFocus": "bottom",
-          "price": "$119.00",
+          "price": "$129.00",
           "description": "Acompañados de frijoles y pan"
         },
         {
           "name": "El americano",
           "image": "menu/dishes/americano.jpeg",
           "imageFocus": "bottom",
-          "price": "$139.00",
+          "price": "$149.00",
           "description": "Hot cakes coronados con huevo estrellado y tocino"
         },
         {
@@ -98,44 +97,44 @@
         {
           "name": "Alitas",
           "image": "menu/dishes/alitas.jpeg",
-          "price": "$159.00",
+          "price": "$179.00",
           "description": "10 pz alita chilena (600 gr aprox) bañada con tu salsa favorita: búfalo, bbq, limon - pimienta o pelon pelorico, acompañadas de vegetales y aderezo ranch"
         },
         {
           "name": "Boneless",
           "image": "menu/dishes/boneless.jpeg",
-          "price": "$129.00",
+          "price": "$149.00",
           "description": "Hechos en casa con 200 gr de pechuga de pollo bañados con tu salsa favorita: búfalo, bbq o pelon pelorico, acompañadas de vegetales y aderezo ranch"
         },
         {
           "name": "Papas oink",
           "image": "menu/dishes/papas_oink.jpeg",
-          "price": "$149.00",
+          "price": "$159.00",
           "description": "350 gr de papas a la francesa, gratinadas con mezcla de quesos, tocino, alioli y un toque de sriracha"
         },
         {
           "name": "Chicken tenders",
           "image": "menu/dishes/chicken_tenders.jpeg",
-          "price": "$119.00",
+          "price": "$129.00",
           "description": "200 gr de jugosa pechuga de pollo empanizadas, acompañados de tu salsa favorita: búfalo, bbq o ranch"
         },
         {
           "name": "Cecina",
           "image": "menu/dishes/cecina.jpeg",
-          "price": "$239.00",
+          "price": "$259.00",
           "description": "100 gr de clasica carne seca bañadas con salsas negras"
         },
         {
           "name": "Chicharron de rib eye",
           "image": "menu/dishes/chicharron_ribeye.jpeg",
-          "price": "$229.00",
+          "price": "$239.00",
           "description": "Chicharron de rib eye, servido sobre una cama de guacamole, acompañado con tortillas"
         },
         {
           "name": "Platón",
           "image": "menu/dishes/platon.jpeg",
           "imageFocus": "bottom",
-          "price": "$389.00",
+          "price": "$399.00",
           "description": "Boneless, guacamole, patatas bravas, papas a la francesa, vegetales y aderezo ranch"
         },
         {
@@ -148,7 +147,7 @@
         {
           "name": "Papas locas",
           "image": "menu/dishes/papas_locas.jpeg",
-          "price": "$109.00",
+          "price": "$139.00",
           "description": "Papas doradas caseras acompañadas con salchicha y salsas"
         },
         {
@@ -162,61 +161,61 @@
           "name": "Chicken quesadilla",
           "image": "menu/dishes/chicken_quesadilla.jpeg",
           "imageFocus": "BC",
-          "price": "$139.00",
+          "price": "$149.00",
           "description": "Quesadilla de pollo con mix de morron tricolor y cebolla, acompañado con guacamole"
         },
         {
           "name": "Ensalada con boneless",
           "image": "menu/dishes/ensalada_boneless.jpeg",
           "imageFocus": "bottom",
-          "price": "$169.00",
+          "price": "$179.00",
           "description": "mix de lechugas con pepino, morron, cebolla morada y aguacate, con un toque de aderezo ranch, coronada con boneless buffalo o bbq a tu elección"
         },
         {
           "name": "Pollo a la plancha",
-          "price": "$149.00",
+          "price": "$159.00",
           "description": "Opción para cambiar los boneless por pollo en ensalada"
         }
       ]
     },
     {
       "id": "menu-99",
-      "title": "MENÚ DE $99",
+      "title": "MENÚ DE $119",
       "items": [
         {
           "name": "Guacamole con chicharron",
           "image": "menu/dishes/guacamole.jpeg",
-          "price": "$99.00",
+          "price": "$119.00",
           "description": "Guacamole con chicharron botanero"
         },
         {
           "name": "Patatas bravas",
           "image": "menu/dishes/patatas_bravas.jpeg",
-          "price": "$99.00",
+          "price": "$119.00",
           "description": "250 gr de papita cambray morada, tocino, salsa picosita, alioli y perejil"
         },
         {
           "name": "Tostitos",
           "image": "menu/dishes/tostitos.jpeg",
-          "price": "$99.00",
+          "price": "$119.00",
           "description": "Los tradicionales"
         },
         {
           "name": "Papas a la francesa",
           "image": "menu/dishes/papas_francesa.jpeg",
-          "price": "$99.00",
+          "price": "$119.00",
           "description": "350 grs"
         },
         {
           "name": "Brownie chocolate",
           "image": "menu/dishes/brownie.jpeg",
-          "price": "$99.00",
+          "price": "$119.00",
           "description": "helado"
         },
         {
           "name": "Chesscake frambuesa",
           "image": "menu/dishes/cheescake.jpeg",
-          "price": "$99.00",
+          "price": "$119.00",
           "description": "pastel"
         }
       ]
@@ -228,25 +227,25 @@
         {
           "name": "Hamburguesa res",
           "image": "menu/dishes/hamburguesa_res.jpeg",
-          "price": "$179.00",
+          "price": "$199.00",
           "description": "150 gr de jugosa carne de res, mezcla de quesos, tocino, aros de cebolla, bbq y vegetetales. Acompañada con papas a la francesa"
         },
         {
           "name": "Hamburguesa krispy chicken",
           "image": "menu/dishes/hamburguesa_chicken.jpeg",
-          "price": "$179.00",
+          "price": "$199.00",
           "description": "120 gr de jugosa pechuga de pollo krispy, gratinada con mozzarella, bañada en salsa búfalo y vegetales. Acompañada con papas a la francesa"
         },
         {
           "name": "Pizza pepperoni",
           "image": "menu/dishes/pizza_pepperoni.jpeg",
-          "price": "$129.00",
+          "price": "$149.00",
           "description": "La tradicioal de pepperoni"
         },
         {
           "name": "Pizza carnes frias",
           "image": "menu/dishes/pizza_carnes.jpeg",
-          "price": "$149.00",
+          "price": "$169.00",
           "description": "Pepperoni, tocino, jamón y salchicha"
         },
         {
@@ -254,6 +253,11 @@
           "image": "menu/dishes/pizza_quesos.jpeg",
           "price": "$149.00",
           "description": "Mozzarella, monterrey jack y cheddar suave"
+        },
+        {
+          "name": "Pizza boneless",
+          "price": "$199.00",
+          "description": "Pizza con boneless, pepperoni y aderezo ranch"
         }
       ]
     },
@@ -326,7 +330,7 @@
             "MINERAL 355ML $39.00",
             "AGUA NATURAL 600ML $25.00",
             "AGUA NATURAL 1 LT $35.00",
-            "NARANJADA / LIMONADA $49.00"
+            "NARANJADA / LIMONADA $59.00"
           ]
         }
       ]
