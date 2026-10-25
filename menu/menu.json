@@ -19,12 +19,6 @@
       "title": "DESAYUNOS",
       "items": [
         {
-          "name": "Bowl de fruta",
-          "image": "menu/dishes/bowlfruta.jpeg",
-          "price": "$99.00",
-          "description": "Melón, fresa, manzana verde y frutos rojos, acompañado de yoguth natural y granola"
-        },
-        {
           "name": "Breakfast burrito",
           "image": "menu/dishes/breakfast_burrito.jpeg",
           "imageFocus": "top",
@@ -125,12 +119,6 @@
           "description": "100 gr de clasica carne seca bañadas con salsas negras"
         },
         {
-          "name": "Chicharron de rib eye",
-          "image": "menu/dishes/chicharron_ribeye.jpeg",
-          "price": "$239.00",
-          "description": "Chicharron de rib eye, servido sobre una cama de guacamole, acompañado con tortillas"
-        },
-        {
           "name": "Platón",
           "image": "menu/dishes/platon.jpeg",
           "imageFocus": "bottom",
@@ -141,7 +129,7 @@
           "name": "Lonchecito bañado",
           "image": "menu/dishes/lonchecito_banado.jpeg",
           "imageFocus": "bottom",
-          "price": "$49.00",
+          "price": "$59.00",
           "description": "Mini lonche de pierna bañado en salsa cremosita con un toque de chipotle y aderezo especial"
         },
         {
@@ -211,12 +199,6 @@
           "image": "menu/dishes/brownie.jpeg",
           "price": "$119.00",
           "description": "helado"
-        },
-        {
-          "name": "Chesscake frambuesa",
-          "image": "menu/dishes/cheescake.jpeg",
-          "price": "$119.00",
-          "description": "pastel"
         }
       ]
     },
