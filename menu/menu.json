@@ -317,6 +317,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "destilados",
+      "title": "Destilados",
+      "subsections": [
+        {
+          "heading": "BOTELLA / TRAGO",
+          "entries": [
+            "ETIQUETA ROJA 700ML BOTELLA $990.00 / TRAGO $75.00",
+            "ETIQUETA NEGRA 750ML BOTELLA $1,650.00 / TRAGO $140.00",
+            "JACK DANIEL'S 700ML BOTELLA $1,100.00 / TRAGO $85.00",
+            "BACARDI 700ML BOTELLA $990.00 / TRAGO $75.00",
+            "TORRES 10 700ML BOTELLA $990.00 / TRAGO $75.00",
+            "BAYLEYS 700ML BOTELLA $900.00 / TRAGO $120.00",
+            "ABSOLUT VODKA 750ML BOTELLA $990.00 / TRAGO $75.00",
+            "SMIRNOFF 750ML BOTELLA $990.00 / TRAGO $75.00",
+            "DON JULIO 70 700ML BOTELLA $1,650.00 / TRAGO $150.00",
+            "ANTIGUO REPOSADO 950ML BOTELLA $1,100.00 / TRAGO $75.00",
+            "30-30 CRISTALINO 750ML BOTELLA $1,100.00 / TRAGO $85.00",
+            "30-30 REPOSADO 750ML BOTELLA $1,500.00 / TRAGO $140.00",
+            "CASCAHUÍN 750ML BOTELLA $1,200.00 / TRAGO $90.00",
+            "CENTENARIO 700ML BOTELLA $990.00 / TRAGO $73.00"
+          ]
+        }
+      ]
     }
   ]
 }
