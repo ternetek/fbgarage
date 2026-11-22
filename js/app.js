@@ -144,6 +144,10 @@
   }
 
   function renderBebidas(section) {
+    const subtitle = section.subtitle
+      ? `<p class="category-sub">${escapeHtml(section.subtitle)}</p>`
+      : "";
+
     const subsections = (section.subsections || [])
       .map((sub) => {
         const lines = (sub.entries || [])
@@ -166,6 +170,7 @@
         <header class="category-head">
           <div class="category-titles">
             <h2 class="category-title" id="h-${escapeHtml(section.id)}">${escapeHtml(section.title)}</h2>
+            ${subtitle}
           </div>
         </header>
         <div class="bev-wrap">${subsections}</div>
